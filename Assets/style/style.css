@@ -1,0 +1,55 @@
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+/* root style  */
+:root {
+  --primary-font: "Source Sans Pro", sans-serif;
+}
+
+/* style  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-family: var(--primary-font);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 7rem;
+}
+
+.subheading {
+  color: #ffffff85;
+  text-align: center;
+}
+
+/* hero section  */
+.hero {
+  height: 90vh;
+}
+
+/* project  */
+.projectContainer {
+  height: 80vh;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.project {
+  margin-bottom: 2rem;
+}
+.projectCard {
+  /* border: 1px solid red; */
+  padding: 9rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
