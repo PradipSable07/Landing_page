@@ -70,13 +70,13 @@ img {
 }
 
 .iconbox {
-    width: 60px;
-    height: 60PX;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-    background-color: var(--color-brand);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background-color: var(--color-brand);
 }
 
 /* NAVBAR */
@@ -91,6 +91,10 @@ img {
 }
 
 .navbar .nav-link:hover {
+  color: var(--color-brand);
+}
+
+.navbar .nav-link.active {
   color: var(--color-brand);
 }
 @media (min-width: 992px) {
@@ -148,4 +152,17 @@ img {
 
 .link-custom:hover::after {
   width: 100%;
+}
+
+/* CARD */
+.card-custom .card-custom-image {
+  overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+  transition: all 400ms ease;
+}
+
+.card-custom:hover .card-custom-image img {
+  transform: scale(1.1);
 }
