@@ -166,3 +166,12 @@ img {
 .card-custom:hover .card-custom-image img {
   transform: scale(1.1);
 }
+.service {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(2, 42, 48, 0.37);
+  backdrop-filter: blur(14.5px);
+  -webkit-backdrop-filter: blur(14.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* color: rgb(2, 42, 48); */
+}
